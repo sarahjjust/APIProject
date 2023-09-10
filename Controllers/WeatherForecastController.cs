@@ -30,5 +30,3 @@ public class WeatherForecastController : ControllerBase
         .ToArray();
     }
 }
-
-// this is a change
