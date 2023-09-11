@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "rLI7jCwZOWJDa5TzYcwcRjonQlJCTgCp0FkKO1uTar8=",
+  "Hash": "PHQ+eTwDK35KJZJirlRzNWmJ/Upn4qaQrAvyCgr9Nzs=",
   "Source": "APIProject",
   "BasePath": "_content/APIProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "APIProject/wwwroot",
+      "Source": "APIProject",
+      "ContentRoot": "/home/sarah/Work/APIProject/wwwroot/",
+      "BasePath": "_content/APIProject",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

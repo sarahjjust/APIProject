@@ -34,3 +34,4 @@
 /home/sarah/Work/APIProject/obj/Debug/net7.0/APIProject.pdb
 /home/sarah/Work/APIProject/obj/Debug/net7.0/APIProject.genruntimeconfig.cache
 /home/sarah/Work/APIProject/obj/Debug/net7.0/ref/APIProject.dll
+/home/sarah/Work/APIProject/bin/Debug/net7.0/APIProject.staticwebassets.runtime.json

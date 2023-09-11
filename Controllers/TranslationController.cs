@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIProject.Controllers;
@@ -11,9 +12,9 @@ public class TranslationController : ControllerBase
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-    private readonly ILogger<WeatherForecastController> _logger;
+    private readonly ILogger<TranslationController> _logger;
 
-    public TranslationController(ILogger<WeatherForecastController> logger)
+    public TranslationController(ILogger<TranslationController> logger)
     {
         _logger = logger;
     }
@@ -21,6 +22,7 @@ public class TranslationController : ControllerBase
     [HttpGet(Name = "GetTranslation")]
     public string Get()
     {
+        Response.Headers.Add("Access-Control-Allow-Origin", "*");
         return "Hello World!";
     }
 }
