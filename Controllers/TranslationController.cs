@@ -25,4 +25,10 @@ public class TranslationController : ControllerBase
         Response.Headers.Add("Access-Control-Allow-Origin", "*");
         return "Hello World!";
     }
+
+    [HttpGet("{text}")]
+    public string GetJPTranslation(string text) {
+        Response.Headers.Add("Access-Control-Allow-Origin", "*");
+        return text;
+    }
 }
